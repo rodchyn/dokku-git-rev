@@ -6,9 +6,8 @@ environment variable.
 ## Installation
 
 ```
-cd /var/lib/dokku/plugins
-git clone https://github.com/rodchyn/dokku-git-rev
-dokku plugins-install
+sudo git clone https://github.com/rodchyn/dokku-git-rev /var/lib/dokku/plugins/dokku-git-rev
+sudo dokku plugins-install
 ```
 
 The environment variable will be set next time you deploy.
