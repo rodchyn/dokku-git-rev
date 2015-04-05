@@ -8,6 +8,7 @@ environment variable.
 ```
 cd /var/lib/dokku/plugins
 git clone https://github.com/nornagon/dokku-git-rev
+dokku plugins-install
 ```
 
 The environment variable will be set next time you deploy.
