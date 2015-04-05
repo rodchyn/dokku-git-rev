@@ -7,7 +7,7 @@ environment variable.
 
 ```
 cd /var/lib/dokku/plugins
-git clone https://github.com/nornagon/dokku-git-rev
+git clone https://github.com/rodchyn/dokku-git-rev
 dokku plugins-install
 ```
 
